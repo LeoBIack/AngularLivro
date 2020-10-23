@@ -1,27 +1,27 @@
-<h2>Cadastro de Livros</h2>
+<h2 style="text-align: center" >Cadastro de Livros</h2>
 
 <mat-card>
 
   <mat-form-field>
     <input type="text" matInput
-      placeholder="titulo"
+      placeholder="Título"
       [(ngModel)]="titulo" />
   </mat-form-field>
 
   <mat-form-field>
     <input type="text" matInput
-      placeholder="autor"
+      placeholder="Autor"
       [(ngModel)]="autor" />
   </mat-form-field>
 
   <mat-form-field>
     <input type="text" matInput
-      placeholder="pages"
+      placeholder="Páginas"
       [(ngModel)]="pages" />
   </mat-form-field>
 
   <button mat-raised-button color="primary"
     (click)="onAdicionarLivro()"
-    >Cadastrar Livro</button>
+    >Cadastrar Seu Livro</button>
 
 </mat-card>
